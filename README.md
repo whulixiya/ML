@@ -1,5 +1,5 @@
 # Superpixel-enhanced Deep Neural Forest for Remote Sensing Image Semantic Segmentation
-Code for Paper 
+Code for Paper  
 [Superpixel-enhanced Deep Neural Forest for Remote Sensing Image Semantic Segmentation](https://www.sciencedirect.com/science/article/pii/S0924271619302606)
 !['Can't load IMAGE'](https://github.com/whulixiya/ML/blob/master/mlPIPIP.png) 
 ## Environments
@@ -39,136 +39,34 @@ predict_vaihingen.process()
 * The whole evaluation process is about 20min.
 
 ## Results
-<table>
-	<tr>
-		<td></td>
-		<td>Imp.S.</td>
-		<td></td>
-		<td>Build.</td>
-		<td></td>
-		<td>Low.V.</td>
-		<td></td>
-		<td>Tree</td>
-		<td></td>
-		<td>Car</td>
-		<td></td>
-		<td>Mean</td>
-		<td></td>
-		<td>OA</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>F1</td>
-		<td>IoU</td>
-		<td>F1</td>
-		<td>IoU</td>
-		<td>F1</td>
-		<td>IoU</td>
-		<td>F1</td>
-		<td>IoU</td>
-		<td>F1</td>
-		<td>IoU</td>
-		<td>F1</td>
-		<td>IoU</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Pre-trained Model(P)</td>
-		<td>93.6</td>
-		<td>87.7</td>
-		<td>96.3</td>
-		<td>93</td>
-		<td>89.8</td>
-		<td>81.5</td>
-		<td>92.7</td>
-		<td>86.4</td>
-		<td>96.7</td>
-		<td>93.6</td>
-		<td>93.8</td>
-		<td>88.4</td>
-		<td>92.1</td>
-	</tr>
-	<tr>
-		<td>Paper(P)</td>
-		<td>94.1</td>
-		<td>88.9</td>
-		<td>97.8</td>
-		<td>95.7</td>
-		<td>89.5</td>
-		<td>80.9</td>
-		<td>90.4</td>
-		<td>82.5</td>
-		<td>95.1</td>
-		<td>90.7</td>
-		<td>93.4</td>
-		<td>87.7</td>
-		<td>92.6</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Pre-trained Model(V)</td>
-		<td>93.6</td>
-		<td>87.9</td>
-		<td>96.2</td>
-		<td>92.6</td>
-		<td>87.3</td>
-		<td>77.4</td>
-		<td>92.1</td>
-		<td>85.3</td>
-		<td>85.3</td>
-		<td>74.4</td>
-		<td>90.9</td>
-		<td>83.5</td>
-		<td>92.3</td>
-	</tr>
-	<tr>
-		<td>Paper(V)</td>
-		<td>93.4</td>
-		<td>87.7</td>
-		<td>97.6</td>
-		<td>95.3</td>
-		<td>87.4</td>
-		<td>77.7</td>
-		<td>91.2</td>
-		<td>83.8</td>
-		<td>85.2</td>
-		<td>74.3</td>
-		<td>91</td>
-		<td>83.3</td>
-		<td>92.2</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-	</tr>
-</table>
+|                      | Imp.S.   | Imp.S. | Build.   | **Build.** | Low.V.   | Low.V. | Tree     | Tree | Car      | Car  | Mean     | Mean     | OA       |
+| -------------------- | -------- | ------ | -------- | ---------- | -------- | ------ | -------- | ---- | -------- | ---- | -------- | -------- | -------- |
+|                      | F1       | IoU    | F1       | IoU        | F1       | IoU    | F1       | IoU  | F1       | IoU  | F1       | IoU      |          |
+| Pre-trained Model(P) | 93.6     | 87.7   | 96.3     | 93         | **89.8** | 81.5   | **92.7** | 86.4 | **96.7** | 93.6 | **93.8** | **88.4** | 92.1     |
+| Paper(P)             | **94.1** | 88.9   | **97.8** | 95.7       | 89.5     | 80.9   | 90.4     | 82.5 | 95.1     | 90.7 | 93.4     | 87.7     | **92.6** |
+| Pre-trained Model(V) | **93.6** | 87.9   | 96.2     | 92.6       | 87.3     | 77.4   | **92.1** | 85.3 | **85.3** | 74.4 | 90.9     | **83.5** | **92.3** |
+| Paper(V)             | 93.4     | 87.7   | **97.6** | 95.3       | **87.4** | 77.7   | 91.2     | 83.8 | 85.2     | 74.3 | **91**   | 83.3     | 92.2     |
+
+## TODO
+- [x] Report the results trained on RTX8000
+
+## Acknowledgements
+Our code is developed based on：
+
+[ssn_superpixels](https://github.com/NVlabs/ssn_superpixels)  
+[pytorch_ssn](https://github.com/CYang0515/pytorch_ssn)  
+[fully-differentiable-deep-ndf-tf](https://github.com/chrischoy/fully-differentiable-deep-ndf-tf)  
+[Neural-Decision-Forests](https://github.com/jingxil/Neural-Decision-Forests)  
+[tensorflow-deeplab-v3](https://github.com/rishizek/tensorflow-deeplab-v3)  
+[deeplabv3-Tensorflow](https://github.com/ximimiao/deeplabv3-Tensorflow)  
+
+## Cite
+@article{Li2020Superpixel,
+  title={Superpixel-enhanced deep neural forest for remote sensing image semantic segmentation},
+  author={Li Mi and Zhenzhong Chen},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={159},
+  pages={140-152},
+  year={2020},
+}
+
