@@ -6,9 +6,9 @@ Code for Paper
 * Python 3.6.2
 * Tensorflow 1.6.0
 * Numpy 1.13.1
-* opencv-python
+* Opencv-python
 * Matplotlib
-* scipy
+* Scipy
 
 ## Data
 *	Download the test image (RGB for Potsdam/IRRG for Vaihingen) and RGB label image (Fully Reference/No Boundary) from ISPRS 2D semantic labelling website.
