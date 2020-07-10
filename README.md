@@ -46,7 +46,7 @@ predict_vaihingen.process()
 | Paper(V)             | 93.4     | 87.7   | **97.6** | 95.3       | **87.4** | 77.7   | 91.2     | 83.8 | 85.2     | 74.3 | **91**   | 83.3     | 92.2     |
 
 ## TODO
-- [x] Report the results trained on RTX8000
+- [ ] Report the results trained on RTX8000
 
 ## Acknowledgements
 Our code is developed based on：
