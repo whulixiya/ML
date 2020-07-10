@@ -28,3 +28,147 @@ Code for Paper
 
 *	Rename the testing image and label image.
 ## Evaluation
+``` python
+import predict_potsdam
+predict_potsdam.process()
+
+import predict_vaihingen
+predict_vaihingen.process()
+``` 
+* The results include the predict RGB image, the predict Label image and the results.txt for accuracy.
+* The whole evaluation process is about 20min.
+
+## Results
+<table>
+	<tr>
+		<td></td>
+		<td>Imp.S.</td>
+		<td></td>
+		<td>Build.</td>
+		<td></td>
+		<td>Low.V.</td>
+		<td></td>
+		<td>Tree</td>
+		<td></td>
+		<td>Car</td>
+		<td></td>
+		<td>Mean</td>
+		<td></td>
+		<td>OA</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>F1</td>
+		<td>IoU</td>
+		<td>F1</td>
+		<td>IoU</td>
+		<td>F1</td>
+		<td>IoU</td>
+		<td>F1</td>
+		<td>IoU</td>
+		<td>F1</td>
+		<td>IoU</td>
+		<td>F1</td>
+		<td>IoU</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Pre-trained Model(P)</td>
+		<td>93.6</td>
+		<td>87.7</td>
+		<td>96.3</td>
+		<td>93</td>
+		<td>89.8</td>
+		<td>81.5</td>
+		<td>92.7</td>
+		<td>86.4</td>
+		<td>96.7</td>
+		<td>93.6</td>
+		<td>93.8</td>
+		<td>88.4</td>
+		<td>92.1</td>
+	</tr>
+	<tr>
+		<td>Paper(P)</td>
+		<td>94.1</td>
+		<td>88.9</td>
+		<td>97.8</td>
+		<td>95.7</td>
+		<td>89.5</td>
+		<td>80.9</td>
+		<td>90.4</td>
+		<td>82.5</td>
+		<td>95.1</td>
+		<td>90.7</td>
+		<td>93.4</td>
+		<td>87.7</td>
+		<td>92.6</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Pre-trained Model(V)</td>
+		<td>93.6</td>
+		<td>87.9</td>
+		<td>96.2</td>
+		<td>92.6</td>
+		<td>87.3</td>
+		<td>77.4</td>
+		<td>92.1</td>
+		<td>85.3</td>
+		<td>85.3</td>
+		<td>74.4</td>
+		<td>90.9</td>
+		<td>83.5</td>
+		<td>92.3</td>
+	</tr>
+	<tr>
+		<td>Paper(V)</td>
+		<td>93.4</td>
+		<td>87.7</td>
+		<td>97.6</td>
+		<td>95.3</td>
+		<td>87.4</td>
+		<td>77.7</td>
+		<td>91.2</td>
+		<td>83.8</td>
+		<td>85.2</td>
+		<td>74.3</td>
+		<td>91</td>
+		<td>83.3</td>
+		<td>92.2</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>
