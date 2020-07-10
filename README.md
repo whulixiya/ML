@@ -1,7 +1,7 @@
 # Superpixel-enhanced Deep Neural Forest for Remote Sensing Image Semantic Segmentation
 Code for Paper 
-![Superpixel-enhanced Deep Neural Forest for Remote Sensing Image Semantic Segmentation](https://github.com/whulixiya/ML/blob/master/mlPIPIP.png)
-
+[Superpixel-enhanced Deep Neural Forest for Remote Sensing Image Semantic Segmentation](https://www.sciencedirect.com/science/article/pii/S0924271619302606)
+!['Can't load IMAGE'](https://github.com/whulixiya/ML/blob/master/mlPIPIP.png) 
 ## Environments
 * Python 3.6.2
 * Tensorflow 1.6.0
@@ -13,6 +13,7 @@ Code for Paper
 ## Data
 *	Download the test image (RGB for Potsdam/IRRG for Vaihingen) and RGB label image (Fully Reference/No Boundary) from ISPRS 2D semantic labelling website.
 *	Transfer the RGB label image to the corresponding label image (provided).
+
 |         |       | Table 1 Label  Transferring |      |      |
 | ------- | ----- | --------------------------- | ---- | ---- |
 |         | Index | R                           | G    | B    |
@@ -23,4 +24,3 @@ Code for Paper
 | Car     | 4     | 255                         | 255  | 0    |
 | Cluster | 5     | 255                         | 0    | 0    |
 | Un      | 6     | 0                           | 0    | 0    |
-*	Rename the testing image and label image.
