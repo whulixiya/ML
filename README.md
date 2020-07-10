@@ -61,12 +61,12 @@ Our code is developed based on：
 [deeplabv3-Tensorflow](https://github.com/ximimiao/deeplabv3-Tensorflow)  
 
 ## Cite
-@article{Li2020Superpixel,
-  title={Superpixel-enhanced deep neural forest for remote sensing image semantic segmentation},
-  author={Li Mi and Zhenzhong Chen},
-  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-  volume={159},
-  pages={140-152},
-  year={2020},
+@article{Li2020Superpixel,  
+  title={Superpixel-enhanced deep neural forest for remote sensing image semantic segmentation},  
+  author={Li Mi and Zhenzhong Chen},  
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},  
+  volume={159},  
+  pages={140-152},  
+  year={2020},  
 }
 
